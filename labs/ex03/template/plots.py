@@ -33,3 +33,4 @@ def plot_train_test(train_errors, test_errors, lambdas, degree):
     plt.title("Ridge regression for polynomial degree " + str(degree))
     leg = plt.legend(loc=1, shadow=True)
     leg.draw_frame(False)
+    plt.show()
